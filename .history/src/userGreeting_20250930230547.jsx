@@ -1,7 +1,0 @@
-function userGreeting(props){
-    return(
-        <>
-        
-        </>
-    )
-}
