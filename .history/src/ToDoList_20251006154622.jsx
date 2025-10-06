@@ -33,22 +33,18 @@ return(
    <ol>
     {tasks.map((task,index)=>
     <li key={index} >
-       
         <span className="text">{task}</span>
     <button className="delete-button"
-    onClick={()=>handleRemoved(index)}>Delete
-    </button>
-    
+    onClick={()=>handleRemoved(index)}>Delete</button>
     <button className="move-button"
-    onClick={()=>handleMoveUp(index)}>
-        👆</button>
-    
+    onClick={()=>handleMoveUp(index)}>👆</button>
     <button className="move-button"
-    onClick={()=>handleMoveDown(index)}>👇</button>
+        onClick={()=>handleMoveDown(index)}>👇</button>
     </li>)}
    </ol>
+ 
 
-    </div>);i
+    </div>);
 
     
 }

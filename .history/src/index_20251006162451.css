@@ -31,24 +31,8 @@ button {
   background-color:rgb(250, 6, 6);
 }
 .move-button {
-  background-color: rgb(115, 98, 212);
+  background-color: rgb(46, 12, 240);
 }
 .move-button :hover{
-  background-color:rgb(118, 120, 241);
-}
-input[type="text"]{
-  font-size: 1.6rem;
-  padding: 10px;
-  border: 2px solid hsla(0,0%,80%,0.5);
-  color: black;
-}
-ol{
-  padding: 0;
-
-}
-li{
-  font-size: 2rem;
-  font-weight: bold;
-  padding: 15px;
-  background-color: hsl(0,0%,85%,0.75);
+  background-color:rgb(36, 38, 124);
 }
