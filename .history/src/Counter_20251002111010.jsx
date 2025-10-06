@@ -1,0 +1,18 @@
+import React,{useState}  from "react"
+function Counter(){
+    const [name,setName]=useState("Ebisa");
+    const [Age,setAge] =useState(0);
+    const updateName=()=>{
+        setName("wako");
+    }
+    const incrementAge=()=>{
+        setAge(Age+1;)
+    }
+    return(<>
+    <p>Name:{name}</p>
+    <button onClick={updateName}>set Name</button>
+    <p>Age:{Age}</p>
+    <button onClick={incrementAge}>Increment Age</button>
+    </>)
+}
+export default Counter
