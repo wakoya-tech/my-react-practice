@@ -1,0 +1,16 @@
+.list-category{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  border: 3px solid;
+  margin-bottom: 12px;
+  color: rgb(39, 34, 34);
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 5px;
+}
+.list-items{
+  text-align: center;
+  font-size: 0.9em;
+  list-style: none;
+  color: rgb(37, 11, 11);
+}
