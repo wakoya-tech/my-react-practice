@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import Amaya from './Amaya.jsx'
+import DigitalClock from './DigitalClock.jsx'
+
 function App() {
   return (
-<Amaya/>
+<DigitalClock/>
   );
 }
 export default App;
