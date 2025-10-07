@@ -1,9 +1,8 @@
-import ToDoList from './ToDoList.jsx'
-
+import { useState } from 'react';
+import Amaya from './Amaya.jsx'
 function App() {
-  
   return (
-<ToDoList/>
+<Amaya/>
   );
 }
 export default App;
