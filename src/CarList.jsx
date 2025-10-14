@@ -13,6 +13,7 @@ function CarList(){
         };
         setCars(c=>[...c,newCar]);
         setCarYear(new Date().getFullYear());
+        
 
     }
     function handleRemovedCar(index){
