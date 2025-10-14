@@ -7,6 +7,7 @@ function List(props) {
   const listItems = itemList.map(item => (
     <li key={item.id}>
       {item.name}: <b>{item.calories}</b>
+      
     </li>
   ));
 
