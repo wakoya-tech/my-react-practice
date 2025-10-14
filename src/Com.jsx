@@ -9,6 +9,7 @@ function Com(){
         setCar(car=>({...car,Year: event.target.value}));
        }
        function handlingMake(event){
+           
         setCar({...car, make:event.target.value});
        }
        function handlingModal(event){
