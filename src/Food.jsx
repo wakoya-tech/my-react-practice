@@ -10,6 +10,7 @@ function Food() {
     setFoods(f => [...f, newFood]);
   }
   function handleRemoved(index){
+    
 setFoods(foods.filter((_,i)=> i !== index));
   }
 
