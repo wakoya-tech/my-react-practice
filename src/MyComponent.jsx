@@ -11,6 +11,7 @@ function MyComponent(){
 }
 function handleQuantityChange(event){
     setQuantity(event.target.value);
+    
 }
 function handleSex(event){
     setSex(event.target.value);
