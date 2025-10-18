@@ -7,7 +7,7 @@ function Amaya(){
     document.title=`Count : ${count} ${color}`
    },[count,color]);
     function Add(){
-      setCount(count +1);
+      setCount(c=> c+1);
     }
     function Sub(){
         setCount(c=>c-1);
