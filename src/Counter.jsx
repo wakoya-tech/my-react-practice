@@ -44,8 +44,11 @@ function Counter(){
    <div className="button">
     <p className="wako">{count}</p>
    <button onClick={decrement}>Decrement</button>
+       
    <button onClick={reset}>Reset</button>
+       
    <button onClick={increment}>increment</button>
+       
    </div>
 
    </>);
