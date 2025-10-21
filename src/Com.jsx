@@ -20,7 +20,8 @@ function Com(){
     <p>my favorite  car is {car.Year} {car.make} {car.model}</p>
    <input placeholder="what" type="number" value={car.Year} onChange={handlingYear} />
         <br />
-   <input type="text" value={car.make} onChange={handlingMake}/><br />
+   <input type="text" value={car.make} onChange={handlingMake}/>
+        <br />
    <input type="text" value={car.model} onChange={handlingModal} /><br />
     </>)
 }
