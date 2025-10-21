@@ -23,6 +23,7 @@ setFoods(foods.filter((_,i)=> i !== index));
             <li key={index} onClick={()=>handleRemoved(index)}>X{food}</li>
           ))}
               </ul>
+        
         <input  type="text" id="foodInput" placeholder="Enter food name" />
         <button onClick={handleAddFood}>Add Food</button>
       </div>
