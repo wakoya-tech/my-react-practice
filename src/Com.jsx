@@ -22,7 +22,8 @@ function Com(){
         <br />
    <input type="text" value={car.make} onChange={handlingMake}/>
         <br />
-   <input type="text" value={car.model} onChange={handlingModal} /><br />
+   <input type="text" value={car.model} onChange={handlingModal} />
+        <br />
     </>)
 }
 export default Com
