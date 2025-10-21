@@ -13,6 +13,7 @@ function Com(){
         setCar({...car, make:event.target.value});
        }
        function handlingModal(event){
+           
         setCar({...car,model:event.target.value});
        }
     return(<>
