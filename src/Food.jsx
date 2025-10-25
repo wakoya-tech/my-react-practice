@@ -13,7 +13,6 @@ function Food() {
     
 setFoods(foods.filter((_,i)=> i !== index));
   }
-
   return (
     <>
       <div>
