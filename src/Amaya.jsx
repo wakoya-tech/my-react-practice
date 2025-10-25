@@ -20,7 +20,6 @@ function Amaya(){
     <button onClick={Add}>Add</button>
     <button onClick={Sub}>Sub</button>
     <button type="color"  onClick={colorHandle}>Color Changer</button>
-
     <h1>well</h1>
     </>);
 }
