@@ -18,7 +18,6 @@ function List(props) {
     </>
   );
 }
-
 List.propTypes = {
   category: PropTypes.string,
   items: PropTypes.arrayOf(
