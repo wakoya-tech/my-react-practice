@@ -17,7 +17,6 @@ function Component(){
     function reset(){
         setCount(0)
     }
-
     return(<>
     <p>Count:{count}</p>
     <button onClick={decrement}>Decrement</button>
