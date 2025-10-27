@@ -5,7 +5,6 @@ function Amaya(){
     const [color,setColor]=useState("green");
    useEffect(()=>{
     document.title=`Count : ${count} ${color}`
-       
    },[count,color]);
     function Add(){
       setCount(c=> c+1);
