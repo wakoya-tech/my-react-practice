@@ -1,7 +1,6 @@
 import React,{useState} from "react"
 function Component(){
     const [count,setCount]=useState();
-    
 
     function decrement(){
       setCount(count - 1);
