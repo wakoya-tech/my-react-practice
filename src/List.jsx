@@ -26,8 +26,6 @@ List.propTypes = {
     })
   )
 };
-
-
 List.defaultProps = {
   category: "Category",
   items: []
