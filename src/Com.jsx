@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 function Com(){
+
     const [car,setCar]=useState(
        { Year:2025,
         make:"Ford",
