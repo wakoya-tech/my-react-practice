@@ -5,6 +5,7 @@ function Com(){
        { Year:2025,
         make:"Ford",
         model:"mustang"
+        
        });
        function handlingYear(event){
         setCar(car=>({...car,Year: event.target.value}));
