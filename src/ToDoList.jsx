@@ -7,7 +7,6 @@ function ToDoList() {
   function handleInputChange(event) {
     setNewTask(event.target.value);
   }
-
   function AddTask() {
     if (newTask.trim() !== "") {
       setTasks(t => [...t, newTask]);
