@@ -9,6 +9,7 @@ function CarList(){
             year:carYear,
             make:carMake,
             model:carModel
+            
         };
         setCars(c=>[...c,newCar]);
         setCarYear(new Date().getFullYear());
