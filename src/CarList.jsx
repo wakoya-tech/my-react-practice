@@ -6,7 +6,6 @@ function CarList(){
     const [carModel,setCarModel]=useState("");
     function handleAddCar(){
         const newCar={
-
             year:carYear,
             make:carMake,
             model:carModel
